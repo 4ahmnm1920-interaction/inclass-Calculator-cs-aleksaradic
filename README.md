@@ -8,7 +8,7 @@ Simple c# Calculator script in Unity. You can add, subtract, divide, multiply nu
 Scripting Runtime Version: .NET 4.0
 
 ### Target platform: 
-PC 
+WEBGL
 
 ### Necessary setup/execution steps: 
 Clone the project from github and add it via Unity Hub.
