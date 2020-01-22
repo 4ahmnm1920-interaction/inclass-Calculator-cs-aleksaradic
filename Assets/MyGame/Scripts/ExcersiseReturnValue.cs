@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ExcersiseReturnValue : MonoBehaviour
 {
+    public float Min;
+    public float Max;
+
     void Start()
     {
         Debug.Log("My name is: " + ReturnString());
@@ -11,23 +14,27 @@ public class ExcersiseReturnValue : MonoBehaviour
         Debug.Log("I am also very high! My height is: " + ReturnFloat());
     }
 
+    void Update()
+    {
+        Debug.Log(Random.Range(Min, Max));
+    }
 
     public string ReturnString()
     {
-        string NameVal ="Aleks";
-        return NameVal;
+        string Name ="Aleks";
+        return Name;
     }
 
     public int ReturnInt()
     {
-        int YearsVal = 18;
-        return YearsVal;
+        int Years = 18;
+        return Years;
     }
 
     public float ReturnFloat()
     {
-        float HeightVal = 1.77f;
-        return HeightVal;
+        float Height = 1.77f;
+        return Height;
     }
 
 }
